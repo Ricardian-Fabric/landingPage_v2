@@ -19,15 +19,7 @@ export function contractLogoAnim() {
 }
 
 export function IssuerInformation() {
-  return (
-    <React.Fragment>
-      <Fade in={true} timeout={4000}>
-        <Button variant="contained" href="https://docs.ricardianfabric.com">
-          How it works?
-        </Button>
-      </Fade>
-    </React.Fragment>
-  );
+  return <React.Fragment></React.Fragment>;
 }
 
 export function IssuedContract() {
@@ -38,8 +30,8 @@ export function IssuedContract() {
   const contract_animation_container = {
     display: "flex",
     margin: "0 auto",
-    height: "300px",
-    width: "300px",
+    height: "100px",
+    width: "100px",
     alignItems: "center",
     justifyContent: "center",
   };
