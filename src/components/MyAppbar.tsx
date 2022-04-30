@@ -9,7 +9,7 @@ const logoStyle = {
 
 export default function MyAppBar() {
   return (
-    <Box sx={{ flexGrow: 1, paddingBottom: 10 }}>
+    <Box sx={{ flexGrow: 1, paddingBottom: 10, width: "100%" }}>
       <AppBar color="primary">
         <Toolbar>
           <img
@@ -18,7 +18,7 @@ export default function MyAppBar() {
             height="40"
             style={logoStyle}
           />
-          <img src="/static/apptitle.png" title="Ricardian Fabric" />
+          <img src="/apptitle.png" title="Ricardian Fabric" />
         </Toolbar>
       </AppBar>
     </Box>
