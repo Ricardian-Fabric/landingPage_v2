@@ -27,7 +27,7 @@ export function Roadmap() {
           <div className="date-content">
             <div className="date-outer">
               <span className="date">
-                <span className="month">June</span>
+                <span className="month">July</span>
                 <span className="year">2022</span>
               </span>
             </div>
@@ -46,7 +46,7 @@ export function Roadmap() {
           <div className="date-content">
             <div className="date-outer">
               <span className="date">
-                <span className="month">July</span>
+                <span className="month">August</span>
                 <span className="year">2022</span>
               </span>
             </div>
