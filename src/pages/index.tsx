@@ -112,12 +112,13 @@ const IndexPage = () => {
           <Typography variant="h3" component="h3" style={PageTitleShadow}>
             A Framework for creating Legal P2P Services with Smart Contracts
           </Typography>
+          <Possibilities></Possibilities>
+          <Spacer></Spacer>
           <Fade in={true} timeout={4000}>
             <Button variant="contained" href="https://docs.ricardianfabric.com">
               How it works?
             </Button>
           </Fade>
-          <Possibilities></Possibilities>
         </PaperWrap>
         <PaperWrap>
           <Typography variant="h3" component="h3" style={PageTitleShadow}>

@@ -32,9 +32,6 @@ export default function Possibilities() {
           <h4>Intellectual Property Rights</h4>
         </Item>
         <Item>
-          <h4>B2B Smart Contracts</h4>
-        </Item>
-        <Item>
           <h4>Legally Binding Smart Contracts</h4>
         </Item>
         <Item>
