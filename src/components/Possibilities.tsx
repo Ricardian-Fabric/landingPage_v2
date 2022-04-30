@@ -10,15 +10,18 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: "center",
   color: theme.palette.text.secondary,
+  "&:hover": {
+    backgroundColor: "#fafafa",
+  },
 }));
 
 export default function Possibilities() {
   return (
-    <div>
+    <div style={{ margin: "0 auto", width: "100%" }}>
       <Stack
         direction="row"
         divider={<Divider orientation="vertical" flexItem />}
-        spacing={2}
+        spacing={1}
         sx={{
           marginTop: "20px",
           textAlign: "center",
