@@ -1,6 +1,5 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
-import Avatar from "@mui/material/Avatar";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
@@ -8,8 +7,9 @@ import ListItemText from "@mui/material/ListItemText";
 import DialogTitle from "@mui/material/DialogTitle";
 import Dialog from "@mui/material/Dialog";
 
-import IssuerAnimation from "./IssuingAnimation";
 import { HARMONYONEISSUERLINK, HARMONYONEDAOLINK } from "../links";
+import { Fade } from "@mui/material";
+import Possibilities from "./Possibilities";
 const daoButtonStyle = {
   margin: "0 auto",
   marginTop: "10px",
@@ -51,7 +51,7 @@ function SimpleDialog(props: SimpleDialogProps) {
 
   return (
     <Dialog onClose={handleClose} open={open}>
-      <DialogTitle>Select Chain</DialogTitle>
+      <DialogTitle>Select DAO Network</DialogTitle>
       <List sx={{ pt: 0 }}>
         <ListItem
           button
@@ -88,7 +88,7 @@ export default function ContractAppChainSelect(
           style={daoButtonStyle}
           onClick={handleClickOpen}
         >
-          <img src="/DAO.png" width="100px" />
+          <img src="/DAO.png" width="50px" />
           <small>Click to enter the DAO</small>
         </Button>
         <SimpleDialog dao={props.dao} open={open} onClose={handleClose} />
@@ -97,9 +97,18 @@ export default function ContractAppChainSelect(
   } else {
     return (
       <div>
-        <Button variant="contained" onClick={handleClickOpen}>
-          <IssuerAnimation></IssuerAnimation>
-        </Button>
+        <div className={"seventeen"}>
+          <Fade in={true} timeout={4000}>
+            <Button variant="contained" onClick={handleClickOpen}>
+              <img
+                width="100%"
+                src="/IssueALegalContractWithASmartContract.png"
+                alt="Issue a Legal Contract with a Smart Contract!"
+              />
+            </Button>
+          </Fade>
+        </div>
+        <Possibilities></Possibilities>
         <SimpleDialog dao={props.dao} open={open} onClose={handleClose} />
       </div>
     );
