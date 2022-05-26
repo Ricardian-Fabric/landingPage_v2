@@ -209,15 +209,6 @@ const IndexPage = () => {
             <Typography variant="h6" component="h6">
               The Builder Guild allows anybody to contribute to the application!
             </Typography>
-
-            <Spacer></Spacer>
-            <img
-              src="/codeHead.png"
-              height="300px"
-              style={imageBorder}
-              alt="Earn to develop"
-            />
-            <Spacer></Spacer>
             <Button
               variant="contained"
               href="https://docs.ricardianfabric.com/guides/dao"
