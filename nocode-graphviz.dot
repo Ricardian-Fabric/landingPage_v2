@@ -1,0 +1,51 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+
+  bgcolor=transparent;
+
+  subgraph cluster_0 {
+    node [color=white];
+    a0 [label="Select a contract from the catalog"]
+    a1 [label="Fill out the smart contract constructor"]
+    a2 [label="Deploy with Metamask"]
+    a0 -> a1 -> a2;
+    label = "*Deploy Smart Contract*";
+    fontsize = 20;
+  }
+
+  subgraph cluster_1 {
+    node [color=white];
+    b0 [label="Import or Type a Written Contract"]
+    b1 [label="Configure the Contract"]
+    b2 [label="Upload to IPFS and Add to Smart Contract"]
+    b0 -> b1 -> b2;
+    label = "*Add Ricardian Contract*";
+    fontsize = 20;
+  }
+  
+   subgraph cluster_3 {
+    node [color=white];
+    c0 [label="Arweave Burner Wallet"]
+    c1 [label="Name the service and add smart contract address"]
+    c2 [label="Upload the website to Arweave"]
+    c0 -> c1 -> c2;
+    label = "*Upload Front End*";
+    fontsize = 20;
+  }
+  
+  start [label="START"]
+  ServiceDeployed [label="Service Deployed"]
+  start -> a0;
+  start -> b0;
+  start -> c0;
+  a2 -> ServiceDeployed;
+  b2 -> ServiceDeployed;
+  c2 -> ServiceDeployed;
+
+  start [shape=Msquare];
+  ServiceDeployed [shape=Msquare];
+}
