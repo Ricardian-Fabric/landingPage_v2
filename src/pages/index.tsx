@@ -204,10 +204,10 @@ const IndexPage = () => {
 
           <PaperWrap>
             <Typography variant="h3" component="h3" style={PageTitleShadow}>
-              Develop to earn tokens.
+              Develop No-Code DApps.
             </Typography>
             <Typography variant="h6" component="h6">
-              The Builder Guild allows anybody to contribute to the application!
+              Earn tokens from the DAO by contributing to the application!
             </Typography>
             <Button
               variant="contained"
@@ -229,7 +229,7 @@ const IndexPage = () => {
           <PaperWrap>
             <img src="/ComingSoon.png" width="200px" alt="Coming Soon" />
             <Spacer></Spacer>
-            <Typography variant="h3" component="h3">
+            <Typography variant="subtitle1" component="p">
               Escrow Service, NFT with Rights, zkKYC
             </Typography>
           </PaperWrap>
