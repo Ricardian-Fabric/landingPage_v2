@@ -13,7 +13,7 @@ export const NokodeSketch = () => {
           <img src="https://sketchviz.com/@StrawberryChocolateFudge/b450de4ab5e028f6db849c4dc62fa7a6/a50036155d54eeead7ce5cbab1c26a2d110802e8.sketchy.png" />
         </CarouselItem>
         <CarouselItem>
-          <img src="https://sketchviz.com/@StrawberryChocolateFudge/1bf93dc1082e8824e65d0a5638466b3e/3dcd0b81d7e1f06b27cd6791628f6c9c4982d385.sketchy.png" />
+          <img src="https://sketchviz.com/@StrawberryChocolateFudge/c3bfe58852e953fe1e377535040e1222/583d8f18687103bfea1d0fba6df160784c7537b7.sketchy.png" />
         </CarouselItem>
       </Carousel>
     </React.Fragment>
