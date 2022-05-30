@@ -1,4 +1,4 @@
 export const HARMONYONEISSUERLINK =
-  "https://ervded4meifzaaglk6j5sxqmioenu4ibajhx4o3m7x2stsbi.arweave.net/JGoyD4wiC5AAy1eT-2V4MQ4jacQECT347bP-31Kcgo8";
+  "https://ofg3x5edyrnnpszbdvuulrqzixvww7ib6wzr2pa72dgjfp3lbe.arweave.net/cU279IPEWtfLIR1p-RcYZRetrfQH1sx08H9DMkr9rCY";
 export const HARMONYONEDAOLINK =
-  "https://ervded4meifzaaglk6j5sxqmioenu4ibajhx4o3m7x2stsbi.arweave.net/JGoyD4wiC5AAy1eT-2V4MQ4jacQECT347bP-31Kcgo8";
+  "https://h7bezveh3vdolueqiazjxh2stqpavw3rnz6hqxkozy5cluqifnvq.arweave.net/P8JM1IfdRuXQkEAym59SnB4K23FufHhdTs46JdIIK2s";
