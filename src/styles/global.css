@@ -272,6 +272,7 @@
   justify-content: center;
   /* height: 200px; */
   color: #fff;
+  overflow: scroll;
 }
 
 .indicators {
