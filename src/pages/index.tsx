@@ -5,12 +5,14 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import { Button, Paper, Typography, Stack } from "@mui/material";
+import { Button, Paper, Typography, Stack, Grid } from "@mui/material";
 import Spacer from "../components/Spacer";
 import ContractAppChainSelect from "../components/ContractAppChainSelect";
 import { Helmet } from "react-helmet";
 import { NokodeSketch } from "../components/nokodeSketch";
 import { HowItWorks, IssueLegalContract } from "../components/howItWorks";
+import PermapinLogo from "../components/permapinLogo";
+import PyramidLogo from "../components/ContractPyramidAnim";
 const lightTheme = createTheme({
   palette: {
     mode: "light",
@@ -114,48 +116,23 @@ const IndexPage = () => {
         <MyAppBar></MyAppBar>
         <Stack spacing={2}>
           <PaperWrap>
-            <ContractAppChainSelect dao={false}></ContractAppChainSelect>
-
             <IssueLegalContract />
-
             <Typography
               variant="h3"
               component="h3"
               style={PageTitleShadow}
             ></Typography>
             <Spacer></Spacer>
-            <NokodeSketch />
             <HowItWorks />
           </PaperWrap>
-          {/* <PaperWrap></PaperWrap> */}
           <PaperWrap>
-            <Spacer></Spacer>
-
-            <Button href="https://global.transak.com/" variant="contained">
-              <h5 style={buyLogo}>Buy</h5>
-              <img
-                src="./harmonyOneLogo.svg"
-                style={marginRight2px}
-                width="20px"
-              />
-              Harmony One and{" "}
-              <img
-                style={marginLeftAndRight2px}
-                src="arweaveLogoIcon.svg"
-                width="20px"
-              />{" "}
-              Arweave here
-            </Button>
-
-            <Spacer></Spacer>
+            <ContractAppChainSelect dao={false}></ContractAppChainSelect>
           </PaperWrap>
-
           <PaperWrap>
-            <Typography variant="h3" component="h3" style={PageTitleShadow}>
+            <PermapinLogo></PermapinLogo>
+            <Typography variant="h6" component="h6">
               Permanent Document Storage
             </Typography>
-            <Spacer></Spacer>
-
             <Spacer></Spacer>
             <Typography variant="body1" component="div">
               Use Ar and store your data forever using the Arweave Blockweave.
@@ -164,21 +141,14 @@ const IndexPage = () => {
               variant="contained"
               href="https://docs.ricardianfabric.com/guides/permaweb"
             >
-              <img
-                width="300px"
-                src="/PoweredByThePermaweb.png"
-                alt="Powered by the permaweb"
-              />
+              Powered by the Permaweb
             </Button>
           </PaperWrap>
           <PaperWrap>
-            <img
-              src="/DecentralizedAutonomousOrganization.png"
-              width="100%"
-              alt="Decentralized Autonomous Organization"
-              style={daoimage}
-            />
-            <Typography variant="p" component="p" style={unstoppobleTypography}>
+            <Typography variant="h5" component="h5">
+              Decentralized Autonomous Organization
+            </Typography>
+            <Typography variant="subtitle1" component="p">
               Permanently available and built on blockchains.
             </Typography>
 
@@ -203,10 +173,10 @@ const IndexPage = () => {
           </PaperWrap>
 
           <PaperWrap>
-            <Typography variant="h3" component="h3" style={PageTitleShadow}>
+            <Typography variant="h5" component="h5">
               Develop No-Code DApps.
             </Typography>
-            <Typography variant="h6" component="h6">
+            <Typography variant="subtitle1" component="p">
               Earn tokens from the DAO by contributing to the application!
             </Typography>
             <Button
@@ -224,6 +194,26 @@ const IndexPage = () => {
                 Docs
               </div>
             </Button>
+            <Spacer></Spacer>
+          </PaperWrap>
+          <PaperWrap>
+            <Spacer></Spacer>
+            <Button href="https://global.transak.com/" variant="contained">
+              <h5 style={buyLogo}>Buy</h5>
+              <img
+                src="./harmonyOneLogo.svg"
+                style={marginRight2px}
+                width="20px"
+              />
+              Harmony One and{" "}
+              <img
+                style={marginLeftAndRight2px}
+                src="arweaveLogoIcon.svg"
+                width="20px"
+              />{" "}
+              Arweave here
+            </Button>
+
             <Spacer></Spacer>
           </PaperWrap>
           <PaperWrap>
