@@ -8,8 +8,9 @@ import DialogTitle from "@mui/material/DialogTitle";
 import Dialog from "@mui/material/Dialog";
 
 import { HARMONYONEISSUERLINK, HARMONYONEDAOLINK } from "../links";
-import { Fade } from "@mui/material";
+import { Fade, Typography } from "@mui/material";
 import Possibilities from "./Possibilities";
+import AnimatedContract from "./animatedContract";
 const daoButtonStyle = {
   margin: "0 auto",
   marginTop: "10px",
@@ -100,15 +101,19 @@ export default function ContractAppChainSelect(
         <div className={"seventeen"}>
           <Fade in={true} timeout={4000}>
             <Button variant="contained" onClick={handleClickOpen}>
+              <AnimatedContract></AnimatedContract>
               <img
-                width="100%"
-                src="/IssueALegalContractWithASmartContract.png"
+                width="150px"
+                src="/issueContract.png"
                 alt="Issue a Legal Contract with a Smart Contract!"
               />
             </Button>
           </Fade>
         </div>
         <Possibilities></Possibilities>
+        <Typography variant="subtitle1" component="p">
+          Run a business on No-Code Smart Contracts
+        </Typography>
         <SimpleDialog dao={props.dao} open={open} onClose={handleClose} />
       </div>
     );
