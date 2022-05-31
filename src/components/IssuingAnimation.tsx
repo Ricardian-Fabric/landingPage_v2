@@ -43,7 +43,6 @@ export default function IssuerAnimation() {
   };
 
   React.useEffect(() => {
-    console.log("Use effect runs");
     managerLogoAnim();
   }, []);
 
