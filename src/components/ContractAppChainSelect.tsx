@@ -112,7 +112,7 @@ export default function ContractAppChainSelect(
         </div>
         <Possibilities></Possibilities>
         <Typography variant="subtitle1" component="p">
-          Run a business on No-Code Smart Contracts
+          Use Smart and Legal Contracts together
         </Typography>
         <SimpleDialog dao={props.dao} open={open} onClose={handleClose} />
       </div>
