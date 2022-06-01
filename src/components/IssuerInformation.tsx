@@ -62,16 +62,16 @@ export function IssuedContract() {
             y2="-29.65"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#d1c5f6" />
-            <stop offset="0.02" stop-color="#d3c8f6" stop-opacity="0.95" />
-            <stop offset="0.13" stop-color="#ddd5f8" stop-opacity="0.73" />
-            <stop offset="0.25" stop-color="#e6e0fa" stop-opacity="0.53" />
-            <stop offset="0.36" stop-color="#eeeafc" stop-opacity="0.37" />
-            <stop offset="0.48" stop-color="#f4f1fd" stop-opacity="0.24" />
-            <stop offset="0.6" stop-color="#f9f7fe" stop-opacity="0.13" />
-            <stop offset="0.72" stop-color="#fcfcfe" stop-opacity="0.06" />
-            <stop offset="0.85" stop-color="#fefeff" stop-opacity="0.01" />
-            <stop offset="1" stop-color="#fff" stop-opacity="0" />
+            <stop offset="0" stopColor="#d1c5f6" />
+            <stop offset="0.02" stopColor="#d3c8f6" stopOpacity="0.95" />
+            <stop offset="0.13" stopColor="#ddd5f8" stopOpacity="0.73" />
+            <stop offset="0.25" stopColor="#e6e0fa" stopOpacity="0.53" />
+            <stop offset="0.36" stopColor="#eeeafc" stopOpacity="0.37" />
+            <stop offset="0.48" stopColor="#f4f1fd" stopOpacity="0.24" />
+            <stop offset="0.6" stopColor="#f9f7fe" stopOpacity="0.13" />
+            <stop offset="0.72" stopColor="#fcfcfe" stopOpacity="0.06" />
+            <stop offset="0.85" stopColor="#fefeff" stopOpacity="0.01" />
+            <stop offset="1" stopColor="#fff" stopOpacity="0" />
           </linearGradient>
         </defs>
         <g id="g2">
@@ -122,7 +122,7 @@ export function IssuedContract() {
               d="M569.21,978,1060.76,907M569.21,1013.45l491.55-70.94m0,35.47-491.55,71m0,35.47,491.55-71M569.21,1119.87l491.55-70.94M569.21,1155.34l491.55-70.94M569.21,1190.81l491.55-70.94m0,35.47-491.55,70.94m0,35.48,491.55-71M569.21,1297.23l491.55-71M569.21,1332.7l491.55-70.94M569.21,1368.17l491.55-70.94M569.21,1403.64l491.55-70.94M569.21,1439.11l491.55-70.94M569.21,1474.59l491.55-70.95M569.21,1510.06l491.55-71m0,35.48-491.55,70.94m491.55-35.47L569.21,1581m0,35.47,491.55-70.94M569.21,1651.94,1060.76,1581M569.21,1687.42l491.55-71M569.21,1722.89l491.55-71M569.21,1758.36l491.55-70.94"
               fill="none"
               stroke="#000"
-              stroke-miterlimit="10"
+              strokeMiterlimit="10"
             />
             <g>
               <polygon

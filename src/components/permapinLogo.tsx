@@ -83,17 +83,17 @@ export default function PermapinLogo() {
             y2="656.7"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#d1c5f6" />
-            <stop offset="0.04" stop-color="#d7cdf7" stop-opacity="0.86" />
-            <stop offset="0.09" stop-color="#dfd7f9" stop-opacity="0.68" />
-            <stop offset="0.15" stop-color="#e7e1fa" stop-opacity="0.52" />
-            <stop offset="0.22" stop-color="#eee9fc" stop-opacity="0.38" />
-            <stop offset="0.29" stop-color="#f3f0fd" stop-opacity="0.26" />
-            <stop offset="0.37" stop-color="#f7f5fe" stop-opacity="0.16" />
-            <stop offset="0.45" stop-color="#fbfafe" stop-opacity="0.09" />
-            <stop offset="0.56" stop-color="#fdfdff" stop-opacity="0.04" />
-            <stop offset="0.7" stop-color="#fffeff" stop-opacity="0.01" />
-            <stop offset="1" stop-color="#fff" stop-opacity="0" />
+            <stop offset="0" stopColor="#d1c5f6" />
+            <stop offset="0.04" stopColor="#d7cdf7" stopOpacity="0.86" />
+            <stop offset="0.09" stopColor="#dfd7f9" stopOpacity="0.68" />
+            <stop offset="0.15" stopColor="#e7e1fa" stopOpacity="0.52" />
+            <stop offset="0.22" stopColor="#eee9fc" stopOpacity="0.38" />
+            <stop offset="0.29" stopColor="#f3f0fd" stopOpacity="0.26" />
+            <stop offset="0.37" stopColor="#f7f5fe" stopOpacity="0.16" />
+            <stop offset="0.45" stopColor="#fbfafe" stopOpacity="0.09" />
+            <stop offset="0.56" stopColor="#fdfdff" stopOpacity="0.04" />
+            <stop offset="0.7" stopColor="#fffeff" stopOpacity="0.01" />
+            <stop offset="1" stopColor="#fff" stopOpacity="0" />
           </linearGradient>
         </defs>
         <g id="g5">
@@ -232,7 +232,7 @@ export default function PermapinLogo() {
                     transform="translate(-933.93 2943.07) rotate(-88.7)"
                     fill="none"
                     stroke="#222326"
-                    stroke-width="7"
+                    strokeWidth="7"
                   />
                   <path
                     d="M1015.2,1986.2c0-.92,1.82-1.8,2.74-3.17,1.79-.88,2.71-2.25,4.5-3.13-3.5-.09-6.11-.62-9.62-.72s-7-1.11-9.58-1.64c-3.46-1-6.07-1.56-10.4-3.06a47.12,47.12,0,0,1-9.48-4.43c-5.15-2.92-8.55-5.79-11.06-9.1s-4.16-6.15-4.92-9.41,1.1-6,3-8.74,5.45-5.42,9.91-7.62c10.71-5.28,23.93-7.25,37-5.51,14,1.3,28.67,6.79,44.12,15.55l14.6,8.27,6.24-3.08c5.36-2.64,7.21-5.38,7.31-8.16-.76-3.26-3.27-6.58-9.28-10-5.15-2.92-9.48-4.43-14.73-4.57a24.37,24.37,0,0,0-12.35,2.46l-25.76-14.6a52.47,52.47,0,0,1,15.06-4.71,82,82,0,0,1,19.3-.41,111.26,111.26,0,0,1,20,3.78,97.81,97.81,0,0,1,20.71,8.9,51.37,51.37,0,0,1,13.64,10.56c3.37,3.8,5.87,7.12,6.6,11.31a12.51,12.51,0,0,1-3,10.59,38.29,38.29,0,0,1-12.63,9.87l-44.61,22c-5.35,2.64-9.81,4.84-12.52,7.09s-5.42,4.49-6.35,5.86l-1.78.88Zm-6.17-23.35a28.08,28.08,0,0,0,7.77,3.45c3.46,1,6.07,1.55,8.68,2.09a22.74,22.74,0,0,0,7.86.67l7,.18,17.84-8.8-12.88-7.3c-4.29-2.43-7.72-4.38-11.19-5.4a41.43,41.43,0,0,0-10.44-2.13c-3.5-.09-6.11-.63-9.65.21a25.26,25.26,0,0,0-7.1,2.59c-3.57,1.76-5.39,3.57-5.49,6.35S1004.74,1960.41,1009,1962.85Z"
@@ -264,7 +264,7 @@ export default function PermapinLogo() {
                   fill="#84b0d1"
                 />
                 <path d="M1171.29,1123.53v154.89c0,35.83-55.54,65-123.8,65s-123.79-29.15-123.79-65V1123.53h247.59m1-1H922.7v155.89c0,36.44,55.87,66,124.79,66s124.8-29.54,124.8-66V1122.53Z" />
-                <g clip-path="url(#clip-path)">
+                <g clipPath="url(#clip-path)">
                   <path
                     id="g5mm6"
                     d="M1047.49,1053.81c-68.92,0-124.79,29.54-124.79,66v158.63c0,36.44,55.87,66,124.79,66s124.8-29.54,124.8-66V1119.79C1172.29,1083.35,1116.42,1053.81,1047.49,1053.81Z"
