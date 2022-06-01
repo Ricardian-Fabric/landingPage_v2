@@ -9,10 +9,9 @@ import { Button, Paper, Typography, Stack, Grid } from "@mui/material";
 import Spacer from "../components/Spacer";
 import ContractAppChainSelect from "../components/ContractAppChainSelect";
 import { Helmet } from "react-helmet";
-import { NokodeSketch } from "../components/nokodeSketch";
 import { HowItWorks, IssueLegalContract } from "../components/howItWorks";
 import PermapinLogo from "../components/permapinLogo";
-import PyramidLogo from "../components/ContractPyramidAnim";
+import ParticlesComponent from "../components/Particles";
 const lightTheme = createTheme({
   palette: {
     mode: "light",
@@ -114,6 +113,7 @@ const IndexPage = () => {
       </Helmet>
       <div>
         <MyAppBar></MyAppBar>
+        <ParticlesComponent></ParticlesComponent>
         <Stack spacing={2}>
           <PaperWrap>
             <IssueLegalContract />
