@@ -19,6 +19,7 @@ export default function ParticlesComponent() {
       url="https://arweave.net/6UEENHP4jbwsP4yt7ueMXo4GTsrDu8VuINxKUBmpdsA"
       init={particlesInit}
       loaded={particlesLoaded}
+      className="particlesstyle"
     />
   );
 }

@@ -288,3 +288,8 @@
   background-color: green;
   color: #fff;
 }
+
+.particlesstyle{
+  opacity: 0.1;
+  z-index: 0;
+}
