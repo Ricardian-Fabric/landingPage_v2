@@ -7,7 +7,12 @@ import ListItemText from "@mui/material/ListItemText";
 import DialogTitle from "@mui/material/DialogTitle";
 import Dialog from "@mui/material/Dialog";
 
-import { HARMONYONEISSUERLINK, HARMONYONEDAOLINK } from "../links";
+import {
+  POLYGONISSUERLINK,
+  HARMONYONEISSUERLINK,
+  HARMONYONEDAOLINK,
+  POLYGONDAOLINK,
+} from "../links";
 import { Fade, Typography } from "@mui/material";
 import Possibilities from "./Possibilities";
 import AnimatedContract from "./animatedContract";
@@ -30,6 +35,7 @@ export interface ContractAppChainSelectProps {
 
 enum ListItemChain {
   Harmony,
+  Polygon,
 }
 
 function SimpleDialog(props: SimpleDialogProps) {
@@ -47,13 +53,31 @@ function SimpleDialog(props: SimpleDialogProps) {
       } else {
         window.location.href = HARMONYONEISSUERLINK;
       }
+    } else if (value === ListItemChain.Polygon) {
+      if (props.dao) {
+        window.location.href = POLYGONDAOLINK;
+      } else {
+        window.location.href = POLYGONISSUERLINK;
+      }
     }
   };
 
   return (
     <Dialog onClose={handleClose} open={open}>
-      <DialogTitle>Select DAO Network</DialogTitle>
+      <DialogTitle>Select Network</DialogTitle>
       <List sx={{ pt: 0 }}>
+        <ListItem
+          button
+          onClick={() => handleListItemClick(ListItemChain.Polygon)}
+        >
+          <ListItemAvatar>
+            <img
+              src="https://arweave.net/u6KwvG9la-LHGmRdF-4_DPAeRUa-nMGMCmTVKAHRGBw"
+              width={"30px"}
+            />
+          </ListItemAvatar>
+          <ListItemText primary={"Polygon"} />
+        </ListItem>
         <ListItem
           button
           onClick={() => handleListItemClick(ListItemChain.Harmony)}
