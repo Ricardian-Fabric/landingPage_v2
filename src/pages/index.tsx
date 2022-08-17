@@ -5,7 +5,7 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import { Button, Paper, Typography, Stack, Grid } from "@mui/material";
+import { Button, Paper, Typography, Stack } from "@mui/material";
 import Spacer from "../components/Spacer";
 import ContractAppChainSelect from "../components/ContractAppChainSelect";
 import { Helmet } from "react-helmet";
@@ -154,9 +154,9 @@ const IndexPage = () => {
 
             <div style={{ ...row, maxWidth: "500px", margin: "0 auto" }}>
               <img
-                src="/harmony-one-logo.png"
+                src="/polygon-logo-black.svg"
                 width="150px"
-                alt="Harmony One logo"
+                alt="Polygon logo"
               />
               <img src="/arweave-logo.svg" width="150px" alt="Arweave logo" />
             </div>
@@ -177,7 +177,8 @@ const IndexPage = () => {
               Develop No-Code DApps.
             </Typography>
             <Typography variant="subtitle1" component="p">
-              Earn tokens from the DAO by contributing to the application!
+              Earn tokens from the DAO by contributing to the application via a
+              built in automated Hackathon!
             </Typography>
             <Button
               variant="contained"
@@ -196,7 +197,7 @@ const IndexPage = () => {
             </Button>
             <Spacer></Spacer>
           </PaperWrap>
-          <PaperWrap>
+          {/* <PaperWrap>
             <Spacer></Spacer>
             <Button href="https://global.transak.com/" variant="contained">
               <h5 style={buyLogo}>Buy</h5>
@@ -215,14 +216,14 @@ const IndexPage = () => {
             </Button>
 
             <Spacer></Spacer>
-          </PaperWrap>
-          <PaperWrap>
+          </PaperWrap> */}
+          {/* <PaperWrap>
             <img src="/ComingSoon.png" width="200px" alt="Coming Soon" />
             <Spacer></Spacer>
             <Typography variant="subtitle1" component="p">
               Escrow Service, NFT with Rights, zkKYC
             </Typography>
-          </PaperWrap>
+          </PaperWrap> */}
           <PaperWrap>
             <Typography variant="h3" component="h3" style={PageTitleShadow}>
               Follow

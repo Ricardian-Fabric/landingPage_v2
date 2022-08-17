@@ -62,6 +62,26 @@ function SimpleDialog(props: SimpleDialogProps) {
     }
   };
 
+  if (props.dao) {
+    return (
+      <Dialog onClose={handleClose} open={open}>
+        <DialogTitle>
+          The Hackathon DAO is Migrating to Polygon and it's currently
+          unavailabe.
+        </DialogTitle>
+        <List sx={{ pt: 0 }}>
+          <ListItem>
+            <ListItemText
+              primary={
+                "Why? The Harmony ecosystem depegged due to the bridge hack, the chain is unable to support a Hackathon DAO due to missing TVL."
+              }
+            />
+          </ListItem>
+        </List>
+      </Dialog>
+    );
+  }
+
   return (
     <Dialog onClose={handleClose} open={open}>
       <DialogTitle>Select Network</DialogTitle>
@@ -136,7 +156,7 @@ export default function ContractAppChainSelect(
         </div>
         <Possibilities></Possibilities>
         <Typography variant="subtitle1" component="p">
-          Use Smart and Legal Contracts together
+          Use Smart and Legal Contracts together!
         </Typography>
         <SimpleDialog dao={props.dao} open={open} onClose={handleClose} />
       </div>
