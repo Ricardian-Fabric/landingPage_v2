@@ -73,7 +73,7 @@ function SimpleDialog(props: SimpleDialogProps) {
           <ListItem>
             <ListItemText
               primary={
-                "Why? The Harmony ecosystem depegged due to the bridge hack, the chain is unable to support a Hackathon DAO due to missing TVL."
+                "Why? The Harmony ecosystem depegged due to the bridge hack, using the chain is high financial risk. We will be back when the ecosystem recovers."
               }
             />
           </ListItem>
