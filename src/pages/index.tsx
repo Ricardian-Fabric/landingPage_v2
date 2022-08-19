@@ -135,7 +135,7 @@ const IndexPage = () => {
             </Typography>
             <Spacer></Spacer>
             <Typography variant="body1" component="div">
-              Use Ar and store your data forever using the Arweave Blockweave.
+              Store your Ricardian Contracts on the Arweave Blockweave.
             </Typography>
             <Button
               variant="contained"
