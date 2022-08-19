@@ -144,7 +144,7 @@ export default function ContractAppChainSelect(
       <div>
         <div className={"seventeen"}>
           <Fade in={true} timeout={4000}>
-            <Button variant="contained" onClick={handleClickOpen}>
+            <Button variant="contained" href="https://gnszihbakzryaihgrqjum7a727a7wxggc2vwyp7abvxob7cxukpq.arweave.net/M2WUHCBWY4Ag5owTRnwf18H7XMYWq2w_4A1u4PxXop8">
               <AnimatedContract></AnimatedContract>
               <img
                 width="150px"
