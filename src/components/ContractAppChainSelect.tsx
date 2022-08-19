@@ -70,13 +70,6 @@ function SimpleDialog(props: SimpleDialogProps) {
           unavailabe.
         </DialogTitle>
         <List sx={{ pt: 0 }}>
-          <ListItem>
-            <ListItemText
-              primary={
-                "Why? The Harmony ecosystem depegged due to the bridge hack, using the chain is high financial risk. We will be back when the ecosystem recovers."
-              }
-            />
-          </ListItem>
         </List>
       </Dialog>
     );
@@ -134,7 +127,7 @@ export default function ContractAppChainSelect(
           onClick={handleClickOpen}
         >
           <img src="/DAO.png" width="50px" />
-          <small>Click to enter the DAO</small>
+          <small>Enter the DAO</small>
         </Button>
         <SimpleDialog dao={props.dao} open={open} onClose={handleClose} />
       </div>
