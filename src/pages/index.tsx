@@ -5,13 +5,14 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import { Button, Paper, Typography, Stack } from "@mui/material";
+import { Button, Paper, Typography, Stack, Fade } from "@mui/material";
 import Spacer from "../components/Spacer";
 import ContractAppChainSelect from "../components/ContractAppChainSelect";
 import { Helmet } from "react-helmet";
-import { HowItWorks, IssueLegalContract } from "../components/howItWorks";
+import { IssueLegalContract } from "../components/howItWorks";
 import PermapinLogo from "../components/permapinLogo";
 import ParticlesComponent from "../components/Particles";
+import AnimatedContract from "../components/animatedContract";
 const lightTheme = createTheme({
   palette: {
     mode: "light",
@@ -72,6 +73,9 @@ const daoimage = {
   maxWidth: "500px",
 };
 
+
+
+
 const PaperWrap = (props: {
   children: React.ReactNode;
   className?: string;
@@ -123,7 +127,14 @@ const IndexPage = () => {
               style={PageTitleShadow}
             ></Typography>
             <Spacer></Spacer>
-            <HowItWorks />
+            <div className={"seventeen"}>
+              <Fade in={true} timeout={4000}>
+                <Button variant="contained" href="https://gnszihbakzryaihgrqjum7a727a7wxggc2vwyp7abvxob7cxukpq.arweave.net/M2WUHCBWY4Ag5owTRnwf18H7XMYWq2w_4A1u4PxXop8">
+                  <AnimatedContract></AnimatedContract>
+                  <h3>Issue a contract</h3>
+                </Button>
+              </Fade>
+            </div>
           </PaperWrap>
           <PaperWrap>
             <ContractAppChainSelect dao={false}></ContractAppChainSelect>
