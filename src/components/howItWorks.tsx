@@ -1,7 +1,5 @@
 import { Button, Fade, Typography } from "@mui/material";
 import React from "react";
-import { PageTitleShadow } from "../pages";
-import IssuerAnimation from "./IssuingAnimation";
 
 export const HowItWorks = () => (
   <Fade in={true} timeout={4000}>
@@ -14,9 +12,9 @@ export const HowItWorks = () => (
 export const IssueLegalContract = () => (
   <React.Fragment>
     <div>
-      <IssuerAnimation />
-      <Typography variant="h5" component="h5">
-        A Framework For Creating No-Code DeFi Apps
+      {/* <IssuerAnimation /> */}
+      <Typography variant="h2" component="h2">
+        An Agreement Protocol for the new open web.
       </Typography>
     </div>
   </React.Fragment>
