@@ -18,7 +18,7 @@ export default function MyAppBar() {
             height="40"
             style={logoStyle}
           />
-          <img src="/apptitle.png" title="Ricardian Fabric" />
+          <h2>Ricardian Fabric</h2>
         </Toolbar>
       </AppBar>
     </Box>
