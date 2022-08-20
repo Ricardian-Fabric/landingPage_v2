@@ -13,9 +13,9 @@ import {
   HARMONYONEDAOLINK,
   POLYGONDAOLINK,
 } from "../links";
-import { Fade, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import Possibilities from "./Possibilities";
-import AnimatedContract from "./animatedContract";
+import { HowItWorks } from "./howItWorks";
 const daoButtonStyle = {
   margin: "0 auto",
   marginTop: "10px",
@@ -135,18 +135,8 @@ export default function ContractAppChainSelect(
   } else {
     return (
       <div>
-        <div className={"seventeen"}>
-          <Fade in={true} timeout={4000}>
-            <Button variant="contained" href="https://gnszihbakzryaihgrqjum7a727a7wxggc2vwyp7abvxob7cxukpq.arweave.net/M2WUHCBWY4Ag5owTRnwf18H7XMYWq2w_4A1u4PxXop8">
-              <AnimatedContract></AnimatedContract>
-              <img
-                width="150px"
-                src="/issueContract.png"
-                alt="Issue a Legal Contract with a Smart Contract!"
-              />
-            </Button>
-          </Fade>
-        </div>
+        <h4>Ricardian Contracts</h4>
+        <HowItWorks />
         <Possibilities></Possibilities>
         <Typography variant="subtitle1" component="p">
           Use Smart and Legal Contracts together!
