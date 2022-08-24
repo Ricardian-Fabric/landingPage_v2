@@ -129,7 +129,7 @@ const IndexPage = () => {
             <Spacer></Spacer>
             <div className={"seventeen"}>
               <Fade in={true} timeout={4000}>
-                <Button variant="contained" href="https://gnszihbakzryaihgrqjum7a727a7wxggc2vwyp7abvxob7cxukpq.arweave.net/M2WUHCBWY4Ag5owTRnwf18H7XMYWq2w_4A1u4PxXop8">
+                <Button variant="contained" href="https://ft6qu3qbcttheos6nuriqeopiow47flx2uyvra4s7sw33pdg7vha.arweave.net/LP0KbgEU5nI6Xm0iiBHPQ63PlXfVMViDkvytvbxm_U4">
                   <AnimatedContract></AnimatedContract>
                   <h3>Issue a contract</h3>
                 </Button>
