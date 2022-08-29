@@ -73,9 +73,6 @@ const daoimage = {
   maxWidth: "500px",
 };
 
-
-
-
 const PaperWrap = (props: {
   children: React.ReactNode;
   className?: string;
@@ -129,7 +126,10 @@ const IndexPage = () => {
             <Spacer></Spacer>
             <div className={"seventeen"}>
               <Fade in={true} timeout={4000}>
-                <Button variant="contained" href="https://is2d7cebptc6bjpwnonxr2bbxr3ltjoufdisvl6k2bodaqlmr3la.arweave.net/RLQ_iIF8xeCl9mubeOghvHa5pdQo0SqvytBcMEFsjtY">
+                <Button
+                  variant="contained"
+                  href="https://app.ricardianfabric.com"
+                >
                   <AnimatedContract></AnimatedContract>
                   <h3>Issue a contract</h3>
                 </Button>
