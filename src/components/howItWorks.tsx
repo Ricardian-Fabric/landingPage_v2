@@ -13,7 +13,7 @@ export const IssueLegalContract = () => (
   <React.Fragment>
     <div>
       {/* <IssuerAnimation /> */}
-      <Typography variant="h2" component="h2">
+      <Typography variant="h3" component="h3">
         An Agreement Protocol for the new open web.
       </Typography>
     </div>

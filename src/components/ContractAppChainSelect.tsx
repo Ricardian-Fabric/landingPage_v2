@@ -135,7 +135,7 @@ export default function ContractAppChainSelect(
   } else {
     return (
       <div>
-        <h4>Ricardian Contracts</h4>
+        <Typography variant="h6" component="h6">Ricardian Contracts</Typography>
         <HowItWorks />
         <Possibilities></Possibilities>
         <Typography variant="subtitle1" component="p">

@@ -2,6 +2,7 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 
 const logoStyle = {
   paddingRight: "10px",
@@ -18,7 +19,7 @@ export default function MyAppBar() {
             height="40"
             style={logoStyle}
           />
-          <h2>Ricardian Fabric</h2>
+          <Typography variant="h6" component="h6">Ricardian Fabric</Typography>
         </Toolbar>
       </AppBar>
     </Box>
