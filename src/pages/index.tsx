@@ -140,6 +140,13 @@ const IndexPage = () => {
             <ContractAppChainSelect dao={false}></ContractAppChainSelect>
           </PaperWrap>
           <PaperWrap>
+            <Typography variant="h6" component="h6">
+              React Component
+            </Typography>
+            <Spacer></Spacer>
+            <Button variant="contained" href="https://www.npmjs.com/package/@ricardianfabric/react-components">Add the published contract to your React Dapp!</Button>
+          </PaperWrap>
+          <PaperWrap>
             <PermapinLogo></PermapinLogo>
             <Typography variant="h6" component="h6">
               Permanent Document Storage
@@ -156,7 +163,7 @@ const IndexPage = () => {
             </Button>
           </PaperWrap>
           <PaperWrap>
-            <Typography variant="h5" component="h5">
+            <Typography variant="h6" component="h6">
               Decentralized Autonomous Organization
             </Typography>
             <Typography variant="subtitle1" component="p">
@@ -184,7 +191,7 @@ const IndexPage = () => {
           </PaperWrap>
 
           <PaperWrap>
-            <Typography variant="h5" component="h5">
+            <Typography variant="h6" component="h6">
               Develop No-Code DApps.
             </Typography>
             <Typography variant="subtitle1" component="p">
@@ -236,7 +243,7 @@ const IndexPage = () => {
             </Typography>
           </PaperWrap> */}
           <PaperWrap>
-            <Typography variant="h3" component="h3" style={PageTitleShadow}>
+            <Typography variant="h6" component="h6" >
               Follow
             </Typography>
             <Stack
@@ -256,27 +263,7 @@ const IndexPage = () => {
               Feel free to reach out: admin@ricardianfabric.com
             </Typography>
             <Spacer></Spacer>
-            <Stack
-              direction="column"
-              spacing={1}
-              sx={{
-                justifyContent: "center",
-                border: "1px dashed grey",
-                maxWidth: "200px",
-                margin: "0 auto",
-              }}
-            >
-              <Button href="https://github.com/Ricardian-Fabric/Ricardian-Fabric/discussions">
-                <img src="/discussions.png" width="100px" />
-              </Button>
-              <Typography
-                variant="subtitle2"
-                component="div"
-                sx={{ color: "red" }}
-              >
-                DAO proposal discussions
-              </Typography>
-            </Stack>
+
           </PaperWrap>
           <Spacer />
         </Stack>
