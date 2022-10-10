@@ -209,6 +209,8 @@ const IndexPage = () => {
                   justifyContent: "center",
                 }}
               >
+                <img className="center" src="/DAO.png" width="50px" />
+                <small>Docs</small>
               </div>
             </Button>
             <Spacer></Spacer>
