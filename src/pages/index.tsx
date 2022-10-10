@@ -167,13 +167,13 @@ const IndexPage = () => {
               Decentralized Autonomous Organization
             </Typography>
             <Typography variant="subtitle1" component="p">
-              Permanently available and built on blockchains.
+              A Perpetual Hackathon DAO to accelerate the development of Ricardian Fabric based DApps.
             </Typography>
 
             <div style={{ ...row, maxWidth: "500px", margin: "0 auto" }}>
               <img
                 src="/polygon-logo-black.svg"
-                width="150px"
+                width="100px"
                 alt="Polygon logo"
               />
               <img src="/arweave-logo.svg" width="150px" alt="Arweave logo" />
@@ -209,8 +209,6 @@ const IndexPage = () => {
                   justifyContent: "center",
                 }}
               >
-                <img src="/BuilderGuildAndDao.png" width="300px" />
-                Docs
               </div>
             </Button>
             <Spacer></Spacer>
