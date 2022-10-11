@@ -124,9 +124,9 @@ export default function ContractAppChainSelect(
         <Button
           variant="contained"
           style={daoButtonStyle}
-          href="https://app.ricardianfabric.com/tokensale"
+          // href="https://app.ricardianfabric.com/tokensale"
         >
-          <h4>Crowdfund the Hackathon DAO</h4>
+          <h4>Coming Soon</h4>
         </Button>
         <SimpleDialog dao={props.dao} open={open} onClose={handleClose} />
       </div>
